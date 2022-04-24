@@ -1,0 +1,49 @@
+#APNs
+etc/apns-conf.xml:product/etc/apns-conf.xml
+
+# Bluetooth (AptX)
+lib64/libaptX_encoder.so
+lib64/libaptXHD_encoder.so
+
+# Kernel Power Off Charging (KPOC)
+bin/kpoc_charger
+etc/init/kpoc_charger.rc
+lib/libshowlogo.so
+
+# Camera
+vendor/lib/libdpframework.so:product/vendor_overlay/29/lib/libdpframework.so|9b7726891d7432869742d02674cb367d770ed772
+vendor/lib64/libdpframework.so:product/vendor_overlay/29/lib64/libdpframework.so|48d574415db7f42a855841197a81039274edd20a
+
+
+# MTK-IMS
+# from full_certus-userdebug 10 QP1A.190711.020 mp1V91561 test-keys
+-framework/mediatek-common.jar
+-framework/mediatek-framework.jar
+-framework/mediatek-ims-base.jar
+-framework/mediatek-ims-common.jar
+-framework/mediatek-telecom-common.jar
+-framework/mediatek-telephony-base.jar
+-framework/mediatek-telephony-common.jar
+bin/vtservice
+etc/init/init.vtservice.rc
+framework/mediatek-ims-extension-plugin.jar
+framework/mediatek-ims-legacy.jar
+lib/libcomutils.so
+lib/libimsma.so
+lib/libimsma_adapt.so
+lib/libimsma_rtp.so
+lib/libimsma_socketwrapper.so
+lib/libmtk_vt_service.so
+lib/libmtk_vt_wrapper.so
+lib/libmtkaudio_utils.so
+lib/libmtkavenhancements.so
+lib/libmtklimiter.so
+lib/libmtkperf_client.so
+lib/libmtkshifter.so
+lib/libsignal.so
+lib/libsink.so
+lib/libsource.so
+lib/libvcodec_cap.so
+lib/libvcodec_capenc.so
+lib/libvt_avsync.so
+lib/vendor.mediatek.hardware.videotelephony@1.0.so

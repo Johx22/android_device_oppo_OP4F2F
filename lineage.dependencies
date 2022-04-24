@@ -1,0 +1,8 @@
+[
+  {
+	"remote": "github",
+	"repository": "BBK-MT6765-Series/proprietary_vendor_oppo_OP4F2F",
+	"target_path": "vendor/oppo/OP4F2F",
+	"branch": "10"
+  }
+]
